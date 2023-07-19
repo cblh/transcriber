@@ -19,6 +19,15 @@ on:
         description: "Whether translating the srt file"
         default: true
         type: boolean
+      upload:
+        description: "上传网址"
+        default: "https://www.wkkc.vip/"
+        type: string
+      convert:
+        description: "转化mp3网址"
+        default: "https://audio-convert.com/cn"
+        type: string
+      
 
 jobs:
   transcribe:
